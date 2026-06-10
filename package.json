@@ -1,0 +1,18 @@
+{
+  "name": "vet-reminder-app",
+  "version": "1.0.0",
+  "description": "Vet appointment reminder system",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^42.4.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^8.0.11",
+    "sql.js": "^1.14.1"
+  }
+}
