@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-//
+
 // Allows the server to understand JSON data
 app.use(express.json());
 
